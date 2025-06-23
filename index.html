@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=width-device-width, initial scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Survey Form</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
@@ -12,7 +12,7 @@
 <form id="survey-form">
   <fieldset>
     <label id="name-label" for="name">Name:<input id="name" type="text" name="name" placeholder="Enter your Name" required></label>
-<label id="email-label" for="email">Email"<input id="email" type="email" name="email" placeholder="Enter your Email" required></label>
+<label id="email-label" for="email">Email:<input id="email" type="email" name="email" placeholder="Enter your Email" required></label>
 <label id="number-label" for="number">Age (Optional):<input id="number" type="number" name="number" min="16" max="90" placeholder="Age" required></label>
 </fieldset>
 <fieldset>
@@ -40,7 +40,7 @@
   <label><input type="checkbox" name="feature" value="Additional Courses">Additional Courses</label>
 </fieldset>
 <fieldset>
-  <legen>Any comments or suggestions?</legend>
+  <legend>Any comments or suggestions?</legend>
   <textarea name="comments" placeholder="Enter your comments here"></textarea>
   </fieldset>
   <button type="submit" id="submit">Submit</button>
